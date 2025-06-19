@@ -15,11 +15,11 @@
 
 */
 
-let isLoggedIn = "Shivam";    // 1
-console.log(typeof isLoggedIn);
-let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(typeof booleanIsLoggedIn);
-console.log(booleanIsLoggedIn);
+// let isLoggedIn = "Shivam";    // 1
+// console.log(typeof isLoggedIn);
+// let booleanIsLoggedIn = Boolean(isLoggedIn);
+// console.log(typeof booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 /* 
     BOOLEAN CONVERSION:
@@ -30,3 +30,30 @@ console.log(booleanIsLoggedIn);
     converting any interger other than 0 to boolean is true;
 
 */
+
+
+
+// *********************  Operations  ******************************
+
+// let value = 3;
+// let negValue = -value;
+// console.log(negValue);
+
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+
+// let s1 = "Hello";
+// let s2 = " shivam";
+// let s3 = s1 + s2;        // to concatenate two strings
+// console.log(s3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" +2 + 2);
+console.log(1 +2 + "2");
