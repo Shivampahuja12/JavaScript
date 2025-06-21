@@ -29,18 +29,18 @@ const big = 45632146532146512n;     // with n in the ending the number becomes B
 
 // Non-primitive
 // arrays, objects, functions
-const heroes = ["shaktimaan", "hello"]
-let myObject = {        // key value pair
-    name: "Shivam",
-    age: 19,
-}
+// const heroes = ["shaktimaan", "hello"]
+// let myObject = {        // key value pair
+//     name: "Shivam",
+//     age: 19,
+// }
 
 
-const myFunction = function(){
-    console.log("Hello World!");
-}
+// const myFunction = function(){
+//     console.log("Hello World!");
+// }
 
-console.log(typeof big);
+// console.log(typeof big);
 // typeof all the non primitive datatypes are object
 // datatype of a function is an object function
 /* 
@@ -63,3 +63,34 @@ console.log(typeof big);
     typeof alert // "function"  (3)
 */
 
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+/* 
+
+    // call by value (copy)
+    let myName = "Shivam";
+    let myLastName = myName;
+    myLastName = "Pahuja";
+
+    console.log(myName);
+    console.log(myLastName); 
+
+*/
+
+
+let user1 = {
+    email: "user1@gmail.com",
+    upi:"user1mail",
+}
+let user2 = user1;      // here the assignment is pass by reference because they both are objects.
+
+
+user2.email = "user2@gmail.com"; //therefore here value of both user1 and user2 emails are same. 
+
+console.log(user1.email);
+console.log(user2.email);
